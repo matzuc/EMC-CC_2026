@@ -1,0 +1,42 @@
+name: emc_cc_2026
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+
+  # Calcolo scientifico e gestione dei dati
+  - numpy
+  - pandas
+  - scipy
+  - xarray>=2024.7.0
+  - dask
+  - bottleneck
+  - tqdm
+
+  # File NetCDF, HDF5 e GRIB
+  - netcdf4
+  - h5netcdf
+  - h5py
+  - cftime
+  - libnetcdf
+  - hdf5
+  - eccodes
+  - cfgrib
+
+  # Grafici, cartografia e dati geografici
+  - matplotlib
+  - cartopy
+  - geopandas
+  - rasterio
+  - rioxarray
+  - shapely
+  - fiona
+  - pyproj
+
+  # Notebook
+  - jupyterlab
+  - ipykernel
+
+  # Servizi Copernicus
+  - copernicusmarine
+  - cdsapi
